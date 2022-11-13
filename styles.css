@@ -16,11 +16,42 @@ body {
 
 .main-container {
     width: 60rem;
-    margin: 50px 0;
+    margin: 8rem 0px 5rem;
     display: grid;
     grid-template-columns: auto 25%;
     gap: 20px;
 }
+.first-container {
+    display: grid;
+    gap: 20px;
+}
+.first-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+.first-row .first-row-one {
+    border: 1px solid gray;
+}
+.first-row .first-row-two {
+    border: 1px solid black;
+}
+.second-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+.second-row .second-row-one {
+    border: 1px solid rebeccapurple;
+}
+.second-row .second-row-two {
+    border: 1px solid red;
+}
 
+.side-container {
+    border: 1px solid green;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
